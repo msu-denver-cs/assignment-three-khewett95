@@ -80,4 +80,6 @@ class CarsController < ApplicationController
     def car_params
       params.require(:car).permit(:make_name, :make_country, :model, :vin, :parts, :query)
     end
+
+
 end
